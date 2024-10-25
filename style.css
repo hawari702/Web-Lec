@@ -1,0 +1,158 @@
+/* GENERAL STYLES */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa500;
+    padding: 10px 20px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    height: 50px;
+    margin-right: 10px;
+}
+.nav-links a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CAROUSEL */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.slide {
+    width: 100%;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+}
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* MAIN CONTENT */
+.content {
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+}
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tickets-table th, .tickets-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #ffa500;
+    padding: 20px;
+    color: black;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+.footer-column a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px; /* Mengatur lebar maksimum gambar */
+    max-height: 100px; /* Mengatur tinggi maksimum gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}

@@ -1,0 +1,14 @@
+// Script for carousel auto-slide
+let currentIndex = 0;
+const slides = document.querySelectorAll('.carousel > div');
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(${(i - index) * 100}%)`;
+    });
+}
+
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+}, 3000);
